@@ -1,0 +1,59 @@
+#BackgroundContentform{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #ECF4FF;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.form-container {
+    background: #fff;
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 80%;
+    flex-direction: column;
+    top: 5%;
+    border-radius: 20px;
+    border: 1px solid #000;
+  }
+
+  .form-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+  }
+
+  .form-row label {
+    width: 50%;
+  }
+
+  .form-row input {
+    width: 350%;
+  }
+
+  .form-row button {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .FormButton{
+    display: flex;
+  }
+
+  .form-container-second{
+    background: #fff;
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 80%;
+    flex-direction: column;
+    top: 65%;
+    border-radius: 20px;
+    border: 1px solid #000;
+  }
